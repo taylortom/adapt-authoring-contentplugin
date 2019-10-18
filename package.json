@@ -1,0 +1,20 @@
+{
+  "name": "adapt-authoring-contentplugin",
+  "version": "0.0.1",
+  "description": "Module for managing framework plugins",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-contentplugin",
+  "main": "index.js",
+  "adapt_authoring": {
+    "module": true,
+    "moduleDependencies": [
+      "adapt-authoring-mongodb"
+    ],
+    "documentation": {
+      "enable": true
+    }
+  },
+  "peerDependencies": {
+    "adapt-authoring-api": "git+https://github.com/adapt-security/adapt-authoring-api.git",
+    "adapt-authoring-core": "git+https://github.com/adapt-security/adapt-authoring-core.git"
+  }
+}
