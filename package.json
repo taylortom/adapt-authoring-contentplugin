@@ -4,14 +4,10 @@
   "description": "Module for managing framework plugins",
   "homepage": "https://github.com/adapt-security/adapt-authoring-contentplugin",
   "main": "index.js",
-  "adapt_authoring": {
-    "module": true,
-    "moduleDependencies": [
-      "adapt-authoring-mongodb"
-    ],
-    "documentation": {
-      "enable": true
-    }
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "semver": "^7.1.2",
+    "zipper": "github:taylortom/zipper"
   },
   "peerDependencies": {
     "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
