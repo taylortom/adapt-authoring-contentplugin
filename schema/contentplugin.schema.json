@@ -1,8 +1,28 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
+  "required": [
+    "name",
+    "version",
+    "framework"
+  ],
   "properties": {
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "framework": {
+      "type": "string"
+    },
     "type": {
+      "type": "string"
+    },
+    "targetAttribute": {
+      "type": "string"
+    },
+    "description": {
       "type": "string"
     },
     "properties": {
