@@ -4,7 +4,8 @@
   "required": [
     "name",
     "version",
-    "framework"
+    "framework",
+    "dir"
   ],
   "properties": {
     "name": {
@@ -27,6 +28,9 @@
     },
     "properties": {
       "type": "object"
+    },
+    "dir": {
+      "type": "string"
     }
   }
 }
