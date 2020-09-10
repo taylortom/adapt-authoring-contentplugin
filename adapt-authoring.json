@@ -1,7 +1,4 @@
 {
-  "moduleDependencies": [
-    "adapt-authoring-mongodb"
-  ],
   "documentation": {
     "enable": true
   }
