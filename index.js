@@ -1,1 +1,1 @@
-module.exports = require('./lib/contentPluginModule');
+module.exports = require('./lib/ContentPluginModule');
