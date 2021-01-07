@@ -18,6 +18,14 @@
     "framework": {
       "type": "string"
     },
+    "isEditable": {
+      "type": "boolean",
+      "default": false
+    },
+    "isEnabled": {
+      "type": "boolean",
+      "default": true
+    },
     "type": {
       "type": "string"
     },
