@@ -3,10 +3,10 @@
   "$anchor": "contentplugin",
   "type": "object",
   "required": [
-    "name",
-    "version",
     "framework",
-    "dir"
+    "name",
+    "type",
+    "version"
   ],
   "properties": {
     "name": {
