@@ -36,6 +36,9 @@
     },
     "dir": {
       "type": "string"
+    },
+    "schemaName": {
+      "type": "string"
     }
   }
 }
