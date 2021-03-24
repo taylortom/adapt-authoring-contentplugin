@@ -5,7 +5,7 @@
   "homepage": "https://github.com/adapt-security/adapt-authoring-contentplugin",
   "main": "index.js",
   "dependencies": {
-    "adapt-cli": "adaptlearning/adapt-cli#feature/pre-releases",
+    "adapt-cli": "^2.1.13",
     "fs-extra": "^8.1.0",
     "semver": "^7.1.2",
     "zipper": "taylortom/zipper"
