@@ -42,6 +42,9 @@
     },
     "schemaName": {
       "type": "string"
+    },
+    "pluginDependencies": {
+      "type": "object"
     }
   }
 }
