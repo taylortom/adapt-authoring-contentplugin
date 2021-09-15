@@ -34,15 +34,6 @@
     "description": {
       "type": "string"
     },
-    "properties": {
-      "type": "object"
-    },
-    "dir": {
-      "type": "string"
-    },
-    "schemaName": {
-      "type": "string"
-    },
     "pluginDependencies": {
       "type": "object"
     }
