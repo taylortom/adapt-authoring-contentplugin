@@ -20,6 +20,10 @@
       "description": "",
       "type": "string"
     },
+    "isLocalInstall": {
+      "description": "Whether the plugin has been installed locally (as opposed to with the CLI)",
+      "type": "boolean"
+    },
     "isEnabled": {
       "description": "",
       "type": "boolean",
@@ -42,5 +46,5 @@
       "type": "object"
     }
   },
-  "required": ["framework", "name", "type", "version"]
+  "required": ["framework", "name", "type", "version", "isLocalInstall"]
 }
