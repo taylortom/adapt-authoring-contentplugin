@@ -4,6 +4,7 @@
   "description": "Module for managing framework plugins",
   "homepage": "https://github.com/adapt-security/adapt-authoring-contentplugin",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "adapt-cli": "^2.1.13",
     "fs-extra": "^8.1.0",

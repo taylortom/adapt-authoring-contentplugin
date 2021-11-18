@@ -1,1 +1,1 @@
-module.exports = require('./lib/ContentPluginModule');
+export { default } from './lib/ContentPluginModule.js';
