@@ -12,6 +12,6 @@
     "zipper": "taylortom/zipper"
   },
   "peerDependencies": {
-    "adapt-authoring-api": "adapt-security/adapt-authoring-api"
+    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api"
   }
 }
