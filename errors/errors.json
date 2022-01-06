@@ -1,0 +1,44 @@
+{
+  "CONTENTPLUGIN_ALREADY_EXISTS": {
+    "data": {
+      "name": "Name of content plugin",
+      "version": "Version of content plugin"
+    },
+    "description": "Plugin ${name}@${version} already exists",
+    "statusCode": 400
+  },
+  "CONTENTPLUGIN_ATTR_CLASH": {
+    "data": {
+      "name": "Name of content plugin",
+      "targetAttribute": "Offending target attribute"
+    },
+    "description": "Target attribute '${targetAttribute}' already exists in ${name}",
+    "statusCode": 400
+  },
+  "CONTENTPLUGIN_ATTR_MISSING": {
+    "data": {
+      "name": "Name of content plugin"
+    },
+    "description": "Plugin ${name} is missing a targetAttribute value",
+    "statusCode": 400
+  },
+  "CONTENTPLUGIN_INCOMPAT_FW": {
+    "data": {
+      "installedFramework": "Version of the framework which is installed",
+      "name": "Name of content plugin",
+      "requiredFramework": "Version of the framework which is required",
+      "version": "Version of content plugin"
+    },
+    "description": "Plugin ${name}@${version} incompatible with installed framework (requires ${requiredFramework}, found ${installedFramework})",
+    "statusCode": 400
+  },
+  "CONTENTPLUGIN_NEWER_INSTALLED": {
+    "data": {
+      "existingVersion": "Installed version",
+      "name": "Name of content plugin",
+      "newVersion": "Version to install"
+    },
+    "description": "Plugin ${name}@${newVersion} already exists at a higher version (${existingVersion})",
+    "statusCode": 400
+  }
+}
