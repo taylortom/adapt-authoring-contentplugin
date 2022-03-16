@@ -8,8 +8,7 @@
   "dependencies": {
     "adapt-cli": "github:adaptlearning/adapt-cli#develop",
     "fs-extra": "^8.1.0",
-    "semver": "^7.1.2",
-    "zipper": "github:taylortom/zipper"
+    "semver": "^7.1.2"
   },
   "peerDependencies": {
     "adapt-authoring-api": "github:adapt-security/adapt-authoring-api"
