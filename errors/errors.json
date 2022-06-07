@@ -39,6 +39,10 @@
     "description": "Installation of plugins failed, ${errors}",
     "statusCode": 400
   },
+  "CONTENTPLUGIN_INVALID_ZIP": {
+    "description": "Invalid plugin data provided",
+    "statusCode": 400
+  },
   "CONTENTPLUGIN_NEWER_INSTALLED": {
     "data": {
       "existingVersion": "Installed version",
