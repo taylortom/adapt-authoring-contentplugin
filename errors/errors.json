@@ -32,12 +32,19 @@
     "description": "Plugin ${name}@${version} incompatible with installed framework (requires ${requiredFramework}, found ${installedFramework})",
     "statusCode": 400
   },
+  "CONTENTPLUGIN_CLI_INSTALL_FAILED": {
+    "data": {
+      "name": "Name of content plugin"
+    },
+    "description": "Installation via adapt-cli failed",
+    "statusCode": 500
+  },
   "CONTENTPLUGIN_INSTALL_FAILED": {
     "data": {
       "errors": "List of errors"
     },
-    "description": "Installation of plugins failed, ${errors}",
-    "statusCode": 400
+    "description": "Installation of plugins failed",
+    "statusCode": 500
   },
   "CONTENTPLUGIN_INVALID_ZIP": {
     "description": "Invalid plugin data provided",
