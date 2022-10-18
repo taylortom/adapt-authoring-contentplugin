@@ -5,7 +5,7 @@
       "pluginInstallDir": {
           "type": "string",
           "description": "Directory that custom plugins are installed",
-          "default": "data/contentplugins"
+          "default": "$DATA/contentplugins"
       }
   }
 }
