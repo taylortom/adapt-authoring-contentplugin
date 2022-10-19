@@ -2,10 +2,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
-      "pluginInstallDir": {
-          "type": "string",
-          "description": "Directory that custom plugins are installed",
-          "default": "$DATA/contentplugins"
-      }
+    "pluginInstallDir": {
+      "type": "string",
+      "description": "Directory that custom plugins are installed",
+      "default": "$DATA/contentplugins"
+    }
   }
 }
