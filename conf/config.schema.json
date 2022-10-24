@@ -6,7 +6,7 @@
       "type": "string",
       "description": "Directory that custom plugins are installed",
       "isDirectory": true,
-      "default": "$DATA/contentplugins"
+      "default": "$DATA/framework-plugins"
     }
   }
 }
