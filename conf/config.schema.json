@@ -3,8 +3,8 @@
   "type": "object",
   "properties": {
     "pluginInstallDir": {
-      "type": "string",
       "description": "Directory that custom plugins are installed",
+      "type": "string",
       "isDirectory": true,
       "default": "$DATA/framework-plugins"
     }
