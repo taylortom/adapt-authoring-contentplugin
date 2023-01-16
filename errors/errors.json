@@ -39,6 +39,13 @@
     "description": "Installation via adapt-cli failed",
     "statusCode": 500
   },
+  "CONTENTPLUGIN_IN_USE": {
+    "data": {
+      "courses": "List of courses using the content plugin"
+    },
+    "description": "Content plugin is in use in existing courses",
+    "statusCode": 400
+  },
   "CONTENTPLUGIN_INSTALL_FAILED": {
     "data": {
       "errors": "List of errors"
