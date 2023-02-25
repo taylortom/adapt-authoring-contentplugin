@@ -44,6 +44,14 @@
     "pluginDependencies": {
       "description": "",
       "type": "object"
+    },
+    "canBeUpdated" : {
+      "type": "boolean",
+      "isReadOnly": true
+    },
+    "latestCompatibleVersion" : {
+      "type": "boolean",
+      "isReadOnly": true
     }
   },
   "required": ["framework", "name", "type", "version", "isLocalInstall"]
